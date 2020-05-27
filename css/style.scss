@@ -3,3 +3,40 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.box {
+  max-width: 250px;
+  height: 100%;
+  margin: 0 auto;
+  transform: translate(22%, 20%);
+  font-family:'Cormorant Garamond', serif;
+  font-weight: bold;
+}
+
+.author {
+  font-size: 30px;
+}
+
+.title {
+  color: rgb(217, 10, 224);
+  font-weight: bold;
+  font-size: 25px;
+  padding-top: 20px;
+}
+
+.poem {
+  padding-top: 20px;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+@media (max-width: 500px) {
+  .box {
+  transform: translate(0%, 20%);
+  }
+}
