@@ -1,3 +1,8 @@
+//var//
+$font-family:'Cormorant Garamond',
+serif;
+$font__color-title:rgb(217, 10, 224);
+
 * {
   margin: 0;
   padding: 0;
@@ -13,9 +18,14 @@
   max-width: 250px;
   height: 100%;
   margin: 0 auto;
-  transform: translate(22%, 20%);
-  font-family:'Cormorant Garamond', serif;
+  transform: translate(22%, 5%);
+  font-family: $font-family;
   font-weight: bold;
+
+  img {
+    max-width: 250px;
+    margin-bottom: 20px;
+  }
 }
 
 .author {
@@ -23,10 +33,11 @@
 }
 
 .title {
-  color: rgb(217, 10, 224);
+  color: $font__color-title;
   font-weight: bold;
   font-size: 25px;
   padding-top: 20px;
+  text-shadow: 2px 2px 5px lightslategrey;
 }
 
 .poem {
@@ -37,6 +48,6 @@
 
 @media (max-width: 500px) {
   .box {
-  transform: translate(0%, 20%);
+    transform: translate(0%, 5%);
   }
 }

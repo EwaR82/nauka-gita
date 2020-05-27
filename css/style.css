@@ -14,10 +14,15 @@
   max-width: 250px;
   height: 100%;
   margin: 0 auto;
-  -webkit-transform: translate(22%, 20%);
-          transform: translate(22%, 20%);
-  font-family: 'Cormorant Garamond', serif;
+  -webkit-transform: translate(22%, 5%);
+          transform: translate(22%, 5%);
+  font-family: "Cormorant Garamond", serif;
   font-weight: bold;
+}
+
+.box img {
+  max-width: 250px;
+  margin-bottom: 20px;
 }
 
 .author {
@@ -29,6 +34,7 @@
   font-weight: bold;
   font-size: 25px;
   padding-top: 20px;
+  text-shadow: 2px 2px 5px lightslategrey;
 }
 
 .poem {
@@ -39,8 +45,8 @@
 
 @media (max-width: 500px) {
   .box {
-    -webkit-transform: translate(0%, 20%);
-            transform: translate(0%, 20%);
+    -webkit-transform: translate(0%, 5%);
+            transform: translate(0%, 5%);
   }
 }
 /*# sourceMappingURL=style.css.map */
